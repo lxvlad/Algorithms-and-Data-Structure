@@ -1,0 +1,4 @@
+# ninja log v5
+1	606	1718856816551392481	CMakeFiles/Queue.dir/Queue.cpp.o	332a28ea81db9353
+1	633	1718856816579885083	CMakeFiles/Queue.dir/main.cpp.o	f07daa10bc26f553
+633	765	1718856816711611256	Queue	dd0951c2ff312959
