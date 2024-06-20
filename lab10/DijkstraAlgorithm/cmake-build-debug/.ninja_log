@@ -1,0 +1,4 @@
+# ninja log v5
+2	613	1718843601910602308	CMakeFiles/DijkstraAlgorithm.dir/Graph.cpp.o	1f217a937988947f
+1	674	1718843601973230868	CMakeFiles/DijkstraAlgorithm.dir/main.cpp.o	2065203ff4c243f1
+674	808	1718843602107705083	DijkstraAlgorithm	c84f831f58fe6e33
