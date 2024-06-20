@@ -1,0 +1,23 @@
+# ninja log v5
+0	22	1718843440056791712	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	677027fa1add6ac0
+0	22	1718843440056791712	/Users/vlish21/University/Algorithms-and-Data-Structure/lab10/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	677027fa1add6ac0
+22	1065	1718843441099964293	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	f3c470993eafe44e
+22	1065	1718843441099964293	googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip	f3c470993eafe44e
+22	1065	1718843441099964293	/Users/vlish21/University/Algorithms-and-Data-Structure/lab10/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	f3c470993eafe44e
+22	1065	1718843441099964293	/Users/vlish21/University/Algorithms-and-Data-Structure/lab10/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip	f3c470993eafe44e
+1065	1083	1718843441117696589	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	a2a3369ffcdf6e92
+1065	1083	1718843441117696589	/Users/vlish21/University/Algorithms-and-Data-Structure/lab10/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	a2a3369ffcdf6e92
+1083	1103	1718843441137691691	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	69a018f10902fd31
+1083	1103	1718843441137691691	/Users/vlish21/University/Algorithms-and-Data-Structure/lab10/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	69a018f10902fd31
+1103	1119	1718843441153892200	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	67ae513788cbe429
+1103	1119	1718843441153892200	/Users/vlish21/University/Algorithms-and-Data-Structure/lab10/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	67ae513788cbe429
+1119	1135	1718843441169892173	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	47d6fce60ac917a1
+1119	1135	1718843441169892173	/Users/vlish21/University/Algorithms-and-Data-Structure/lab10/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	47d6fce60ac917a1
+1135	1151	1718843441186062683	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	315aca12d4e684b6
+1135	1151	1718843441186062683	/Users/vlish21/University/Algorithms-and-Data-Structure/lab10/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	315aca12d4e684b6
+1151	1167	1718843441201798414	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	ca5f52729aba7ea0
+1151	1167	1718843441201798414	/Users/vlish21/University/Algorithms-and-Data-Structure/lab10/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	ca5f52729aba7ea0
+1167	1189	1718843441224114363	CMakeFiles/googletest-populate-complete	b84dabe41faca49e
+1167	1189	1718843441224114363	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	b84dabe41faca49e
+1167	1189	1718843441224114363	/Users/vlish21/University/Algorithms-and-Data-Structure/lab10/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	b84dabe41faca49e
+1167	1189	1718843441224114363	/Users/vlish21/University/Algorithms-and-Data-Structure/lab10/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	b84dabe41faca49e
