@@ -1,0 +1,23 @@
+# ninja log v5
+1	29	1718843100586624332	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	75eb091129e888df
+1	29	1718843100586624332	/Users/vlish21/University/Algorithms-and-Data-Structure/lab3/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	75eb091129e888df
+29	1360	1718843101917721851	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	e56b2664688b84e2
+29	1360	1718843101917721851	googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip	e56b2664688b84e2
+29	1360	1718843101917721851	/Users/vlish21/University/Algorithms-and-Data-Structure/lab3/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	e56b2664688b84e2
+29	1360	1718843101917721851	/Users/vlish21/University/Algorithms-and-Data-Structure/lab3/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip	e56b2664688b84e2
+1360	1377	1718843101934557799	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	2f053807c08d768d
+1360	1377	1718843101934557799	/Users/vlish21/University/Algorithms-and-Data-Structure/lab3/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	2f053807c08d768d
+1377	1394	1718843101952000312	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	d4463b3a040d3d47
+1377	1394	1718843101952000312	/Users/vlish21/University/Algorithms-and-Data-Structure/lab3/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	d4463b3a040d3d47
+1394	1415	1718843101973253292	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	40839b0b349e3e38
+1394	1415	1718843101973253292	/Users/vlish21/University/Algorithms-and-Data-Structure/lab3/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	40839b0b349e3e38
+1416	1432	1718843101990305734	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	a8105749c3df1e51
+1416	1432	1718843101990305734	/Users/vlish21/University/Algorithms-and-Data-Structure/lab3/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	a8105749c3df1e51
+1432	1450	1718843102007471714	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	84dd038c28e73744
+1432	1450	1718843102007471714	/Users/vlish21/University/Algorithms-and-Data-Structure/lab3/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	84dd038c28e73744
+1450	1475	1718843102032695824	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	7d064dcaeb8674fd
+1450	1475	1718843102032695824	/Users/vlish21/University/Algorithms-and-Data-Structure/lab3/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	7d064dcaeb8674fd
+1475	1501	1718843102058630621	CMakeFiles/googletest-populate-complete	e6f48d1fe01770d6
+1475	1501	1718843102058630621	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	e6f48d1fe01770d6
+1475	1501	1718843102058630621	/Users/vlish21/University/Algorithms-and-Data-Structure/lab3/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	e6f48d1fe01770d6
+1475	1501	1718843102058630621	/Users/vlish21/University/Algorithms-and-Data-Structure/lab3/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	e6f48d1fe01770d6
