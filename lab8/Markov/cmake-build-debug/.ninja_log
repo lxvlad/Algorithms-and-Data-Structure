@@ -1,0 +1,5 @@
+# ninja log v5
+1	774	1718855667486011490	CMakeFiles/Markov.dir/Markov.cpp.o	4adada2451a7544a
+2	778	1718855667485166231	CMakeFiles/Markov.dir/MyString.cpp.o	a660e0ff9514071b
+0	895	1718855667611039300	CMakeFiles/Markov.dir/main.cpp.o	be6e142a86c75956
+896	1049	1718855667765688125	Markov	fa7a21fe28c36f2c

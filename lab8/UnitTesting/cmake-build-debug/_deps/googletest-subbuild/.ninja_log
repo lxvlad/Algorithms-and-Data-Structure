@@ -1,0 +1,23 @@
+# ninja log v5
+0	23	1718855728134616467	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	37874b2652c94d66
+0	23	1718855728134616467	/Users/vlish21/University/Algorithms-and-Data-Structure/lab8/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	37874b2652c94d66
+23	1523	1718855729634082462	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	438ed4f4b4475f64
+23	1523	1718855729634082462	googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip	438ed4f4b4475f64
+23	1523	1718855729634082462	/Users/vlish21/University/Algorithms-and-Data-Structure/lab8/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	438ed4f4b4475f64
+23	1523	1718855729634082462	/Users/vlish21/University/Algorithms-and-Data-Structure/lab8/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip	438ed4f4b4475f64
+1523	1542	1718855729653108515	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	b4dfab6647d92b19
+1523	1542	1718855729653108515	/Users/vlish21/University/Algorithms-and-Data-Structure/lab8/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	b4dfab6647d92b19
+1542	1559	1718855729671223436	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	e72c75c988580e52
+1542	1559	1718855729671223436	/Users/vlish21/University/Algorithms-and-Data-Structure/lab8/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	e72c75c988580e52
+1559	1577	1718855729688298148	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	c0926feb6452ddaf
+1559	1577	1718855729688298148	/Users/vlish21/University/Algorithms-and-Data-Structure/lab8/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	c0926feb6452ddaf
+1577	1603	1718855729712562622	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	884f13dde423b4e2
+1577	1603	1718855729712562622	/Users/vlish21/University/Algorithms-and-Data-Structure/lab8/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	884f13dde423b4e2
+1603	1669	1718855729780826803	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	4f8d0a03400d8a97
+1603	1669	1718855729780826803	/Users/vlish21/University/Algorithms-and-Data-Structure/lab8/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	4f8d0a03400d8a97
+1669	1692	1718855729804252893	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	4a3c39e447bbb045
+1669	1692	1718855729804252893	/Users/vlish21/University/Algorithms-and-Data-Structure/lab8/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	4a3c39e447bbb045
+1692	1717	1718855729828502784	CMakeFiles/googletest-populate-complete	e68fd4de4d07b67f
+1692	1717	1718855729828502784	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	e68fd4de4d07b67f
+1692	1717	1718855729828502784	/Users/vlish21/University/Algorithms-and-Data-Structure/lab8/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	e68fd4de4d07b67f
+1692	1717	1718855729828502784	/Users/vlish21/University/Algorithms-and-Data-Structure/lab8/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	e68fd4de4d07b67f
