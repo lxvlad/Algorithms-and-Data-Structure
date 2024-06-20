@@ -1,0 +1,4 @@
+# ninja log v5
+2	892	1718856519386041316	CMakeFiles/SparseMatrix.dir/SparseMatrix.cpp.o	e2fc838d76ff72bd
+1	927	1718856519423093960	CMakeFiles/SparseMatrix.dir/main.cpp.o	27304f54a06c6934
+927	1109	1718856519604226631	SparseMatrix	85ff3bd27139c0b0

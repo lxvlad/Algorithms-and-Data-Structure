@@ -1,0 +1,23 @@
+# ninja log v5
+1	27	1718856484590826338	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	31833a594a30c802
+1	27	1718856484590826338	/Users/vlish21/University/Algorithms-and-Data-Structure/lab6/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	31833a594a30c802
+27	1202	1718856485766063013	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	efd5ac5312d70776
+27	1202	1718856485766063013	googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip	efd5ac5312d70776
+27	1202	1718856485766063013	/Users/vlish21/University/Algorithms-and-Data-Structure/lab6/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	efd5ac5312d70776
+27	1202	1718856485766063013	/Users/vlish21/University/Algorithms-and-Data-Structure/lab6/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip	efd5ac5312d70776
+1202	1219	1718856485782519249	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	a9e7af38867d2969
+1202	1219	1718856485782519249	/Users/vlish21/University/Algorithms-and-Data-Structure/lab6/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	a9e7af38867d2969
+1219	1235	1718856485798644164	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	9910558a60ffe158
+1219	1235	1718856485798644164	/Users/vlish21/University/Algorithms-and-Data-Structure/lab6/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	9910558a60ffe158
+1235	1250	1718856485814175310	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	6b9ba8a884c2fc94
+1235	1250	1718856485814175310	/Users/vlish21/University/Algorithms-and-Data-Structure/lab6/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	6b9ba8a884c2fc94
+1250	1269	1718856485832036950	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	892f0d060cb25367
+1250	1269	1718856485832036950	/Users/vlish21/University/Algorithms-and-Data-Structure/lab6/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	892f0d060cb25367
+1269	1293	1718856485856375713	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	a16e591ef5c1d0b3
+1269	1293	1718856485856375713	/Users/vlish21/University/Algorithms-and-Data-Structure/lab6/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	a16e591ef5c1d0b3
+1293	1318	1718856485881819057	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	f81d5301295d03e4
+1293	1318	1718856485881819057	/Users/vlish21/University/Algorithms-and-Data-Structure/lab6/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	f81d5301295d03e4
+1319	1365	1718856485928658946	CMakeFiles/googletest-populate-complete	79d3f992a0cc1df9
+1319	1365	1718856485928658946	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	79d3f992a0cc1df9
+1319	1365	1718856485928658946	/Users/vlish21/University/Algorithms-and-Data-Structure/lab6/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	79d3f992a0cc1df9
+1319	1365	1718856485928658946	/Users/vlish21/University/Algorithms-and-Data-Structure/lab6/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	79d3f992a0cc1df9
