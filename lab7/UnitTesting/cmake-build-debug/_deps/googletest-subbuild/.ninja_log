@@ -1,0 +1,23 @@
+# ninja log v5
+0	40	1718856933128863005	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	51ac0e43b4093977
+0	40	1718856933128863005	/Users/vlish21/University/Algorithms-and-Data-Structure/lab7/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	51ac0e43b4093977
+41	1929	1718856935017793661	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	1c1cad097c960f7
+41	1929	1718856935017793661	googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip	1c1cad097c960f7
+41	1929	1718856935017793661	/Users/vlish21/University/Algorithms-and-Data-Structure/lab7/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	1c1cad097c960f7
+41	1929	1718856935017793661	/Users/vlish21/University/Algorithms-and-Data-Structure/lab7/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip	1c1cad097c960f7
+1929	1946	1718856935034511219	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	7f224af719c43733
+1929	1946	1718856935034511219	/Users/vlish21/University/Algorithms-and-Data-Structure/lab7/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	7f224af719c43733
+1946	1961	1718856935050367562	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	af473c85d48969ce
+1946	1961	1718856935050367562	/Users/vlish21/University/Algorithms-and-Data-Structure/lab7/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	af473c85d48969ce
+1961	1977	1718856935066264694	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	a3790ded5171c483
+1961	1977	1718856935066264694	/Users/vlish21/University/Algorithms-and-Data-Structure/lab7/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	a3790ded5171c483
+1977	1993	1718856935082067580	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	32dbd8ad397cefe3
+1977	1993	1718856935082067580	/Users/vlish21/University/Algorithms-and-Data-Structure/lab7/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	32dbd8ad397cefe3
+1993	2009	1718856935097631809	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	6bc5c0e3af1634b4
+1993	2009	1718856935097631809	/Users/vlish21/University/Algorithms-and-Data-Structure/lab7/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	6bc5c0e3af1634b4
+2009	2025	1718856935113496192	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	830251a082622bf7
+2009	2025	1718856935113496192	/Users/vlish21/University/Algorithms-and-Data-Structure/lab7/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	830251a082622bf7
+2025	2047	1718856935135670748	CMakeFiles/googletest-populate-complete	51a72a7a79238774
+2025	2047	1718856935135670748	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	51a72a7a79238774
+2025	2047	1718856935135670748	/Users/vlish21/University/Algorithms-and-Data-Structure/lab7/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	51a72a7a79238774
+2025	2047	1718856935135670748	/Users/vlish21/University/Algorithms-and-Data-Structure/lab7/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	51a72a7a79238774

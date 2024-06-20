@@ -1,0 +1,9 @@
+# ninja log v5
+2	998	1718856946908193587	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	52a6ee047aecda88
+1	1049	1718856946961518599	CMakeFiles/UnitTesting.dir/main.cpp.o	5a707d3f836c6be2
+1	2336	1718856948244738536	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	4b0e04ea17f5bfc4
+2337	2382	1718856948300380000	lib/libgtest.a	f3e2e0260090b16a
+2382	2406	1718856948324398000	lib/libgtest_main.a	173d721be4f94a5c
+2406	2861	1718856948777144102	UnitTesting	873757cb20a9c44c
+2406	2861	1718856948777144102	UnitTesting[1]_tests.cmake	873757cb20a9c44c
+2406	2861	1718856948777144102	/Users/vlish21/University/Algorithms-and-Data-Structure/lab7/UnitTesting/cmake-build-debug/UnitTesting[1]_tests.cmake	873757cb20a9c44c
