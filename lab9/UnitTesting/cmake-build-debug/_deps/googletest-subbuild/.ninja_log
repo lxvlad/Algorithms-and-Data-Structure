@@ -1,0 +1,23 @@
+# ninja log v5
+0	22	1718843332736231197	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	9a13fe7a7913a72a
+0	22	1718843332736231197	/Users/vlish21/University/Algorithms-and-Data-Structure/lab9/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	9a13fe7a7913a72a
+23	1028	1718843333741969663	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	e7985c27368a4ff6
+23	1028	1718843333741969663	googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip	e7985c27368a4ff6
+23	1028	1718843333741969663	/Users/vlish21/University/Algorithms-and-Data-Structure/lab9/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	e7985c27368a4ff6
+23	1028	1718843333741969663	/Users/vlish21/University/Algorithms-and-Data-Structure/lab9/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip	e7985c27368a4ff6
+1028	1049	1718843333763302225	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	177f0256e02e1861
+1028	1049	1718843333763302225	/Users/vlish21/University/Algorithms-and-Data-Structure/lab9/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	177f0256e02e1861
+1049	1066	1718843333779461610	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	f7c469c7b7ddefc8
+1049	1066	1718843333779461610	/Users/vlish21/University/Algorithms-and-Data-Structure/lab9/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	f7c469c7b7ddefc8
+1066	1081	1718843333795013305	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	823ceab18be04bce
+1066	1081	1718843333795013305	/Users/vlish21/University/Algorithms-and-Data-Structure/lab9/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	823ceab18be04bce
+1081	1097	1718843333810647956	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	2c0bb82f9f29bd15
+1081	1097	1718843333810647956	/Users/vlish21/University/Algorithms-and-Data-Structure/lab9/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	2c0bb82f9f29bd15
+1097	1112	1718843333826447602	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	61fca1d534dcfa55
+1097	1112	1718843333826447602	/Users/vlish21/University/Algorithms-and-Data-Structure/lab9/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	61fca1d534dcfa55
+1113	1130	1718843333843354673	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	30305967f54b6b93
+1113	1130	1718843333843354673	/Users/vlish21/University/Algorithms-and-Data-Structure/lab9/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	30305967f54b6b93
+1130	1152	1718843333866263145	CMakeFiles/googletest-populate-complete	7b902e8bdc9d6646
+1130	1152	1718843333866263145	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	7b902e8bdc9d6646
+1130	1152	1718843333866263145	/Users/vlish21/University/Algorithms-and-Data-Structure/lab9/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	7b902e8bdc9d6646
+1130	1152	1718843333866263145	/Users/vlish21/University/Algorithms-and-Data-Structure/lab9/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	7b902e8bdc9d6646
