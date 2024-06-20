@@ -1,0 +1,23 @@
+# ninja log v5
+1	32	1718842776605524868	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	357bd79ef1d76f50
+1	32	1718842776605524868	/Users/vlish21/University/Algorithms-and-Data-Structure/lab2/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	357bd79ef1d76f50
+33	2563	1718842779136343901	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	47655c64025e41f4
+33	2563	1718842779136343901	googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip	47655c64025e41f4
+33	2563	1718842779136343901	/Users/vlish21/University/Algorithms-and-Data-Structure/lab2/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	47655c64025e41f4
+33	2563	1718842779136343901	/Users/vlish21/University/Algorithms-and-Data-Structure/lab2/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip	47655c64025e41f4
+2563	2582	1718842779156285366	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	efd21440c615ad64
+2563	2582	1718842779156285366	/Users/vlish21/University/Algorithms-and-Data-Structure/lab2/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	efd21440c615ad64
+2583	2603	1718842779176556322	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	4f59083b99816f57
+2583	2603	1718842779176556322	/Users/vlish21/University/Algorithms-and-Data-Structure/lab2/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	4f59083b99816f57
+2603	2620	1718842779193637787	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	d60e3a5676318c23
+2603	2620	1718842779193637787	/Users/vlish21/University/Algorithms-and-Data-Structure/lab2/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	d60e3a5676318c23
+2620	2637	1718842779211366066	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	6a6bc62f636a88a7
+2620	2637	1718842779211366066	/Users/vlish21/University/Algorithms-and-Data-Structure/lab2/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	6a6bc62f636a88a7
+2638	2655	1718842779228613818	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	5adc7916a2769fd2
+2638	2655	1718842779228613818	/Users/vlish21/University/Algorithms-and-Data-Structure/lab2/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	5adc7916a2769fd2
+2655	2672	1718842779245854486	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	1da83040585a93dc
+2655	2672	1718842779245854486	/Users/vlish21/University/Algorithms-and-Data-Structure/lab2/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	1da83040585a93dc
+2672	2697	1718842779270574730	CMakeFiles/googletest-populate-complete	3bef3ee1fd3e0cec
+2672	2697	1718842779270574730	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	3bef3ee1fd3e0cec
+2672	2697	1718842779270574730	/Users/vlish21/University/Algorithms-and-Data-Structure/lab2/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	3bef3ee1fd3e0cec
+2672	2697	1718842779270574730	/Users/vlish21/University/Algorithms-and-Data-Structure/lab2/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	3bef3ee1fd3e0cec
