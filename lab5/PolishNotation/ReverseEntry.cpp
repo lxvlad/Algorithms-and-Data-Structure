@@ -85,7 +85,7 @@ string toPostfix(string infix)
 
 int calculate(string expr)
 {
-    stack <int> Stack;
+    stack<int> Stack;
     for (char c : expr)
     {
         if (isdigit(c))
@@ -98,24 +98,25 @@ int calculate(string expr)
             int left = Stack.top(); Stack.pop();
             switch (c)
             {
-            case '+': Stack.push(left + right); break;
-            case '-': Stack.push(left - right); break;
-            case '*': Stack.push(left * right); break;
-            case '/':
-                if (right != 0) {
-                    Stack.push(left / right);
-                }
-                else {
-                    cout << "Error: Division by zero!\n";
-                    return -1;
-                }
+                case '+': Stack.push(left + right); break;
+                case '-': Stack.push(left - right); break;
+                case '*': Stack.push(left * right); break;
+                case '/':
+                    if (right != 0) {
+                        Stack.push(left / right);
+                    }
+                    else {
+                        cout << "Error: Division by zero!\n";
+                        return -1;
+                    }
                 break;
-            case '^': Stack.push(pow(left, right)); break;
+                case '^': Stack.push(static_cast<int>(pow(left, right))); break;
             }
         }
     }
     return Stack.top();
 }
+
 
 string toInfix(string postfix)
 {
