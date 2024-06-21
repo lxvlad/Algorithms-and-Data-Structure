@@ -1,0 +1,23 @@
+# ninja log v5
+1	26	1718938806055887734	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	e0415a98767b4807
+1	26	1718938806055887734	/Users/vlish21/University/Algorithms-and-Data-Structure/lab11/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	e0415a98767b4807
+26	1221	1718938807250854195	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	d890d0017a5f8945
+26	1221	1718938807250854195	googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip	d890d0017a5f8945
+26	1221	1718938807250854195	/Users/vlish21/University/Algorithms-and-Data-Structure/lab11/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	d890d0017a5f8945
+26	1221	1718938807250854195	/Users/vlish21/University/Algorithms-and-Data-Structure/lab11/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip	d890d0017a5f8945
+1221	1238	1718938807267494725	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	899467b13a59e9f2
+1221	1238	1718938807267494725	/Users/vlish21/University/Algorithms-and-Data-Structure/lab11/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	899467b13a59e9f2
+1238	1259	1718938807288632228	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	6fa99cdff09f6469
+1238	1259	1718938807288632228	/Users/vlish21/University/Algorithms-and-Data-Structure/lab11/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	6fa99cdff09f6469
+1259	1277	1718938807307018755	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	2acc0c06457c3d48
+1259	1277	1718938807307018755	/Users/vlish21/University/Algorithms-and-Data-Structure/lab11/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	2acc0c06457c3d48
+1277	1295	1718938807324628431	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	335f699c44c76984
+1277	1295	1718938807324628431	/Users/vlish21/University/Algorithms-and-Data-Structure/lab11/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	335f699c44c76984
+1295	1314	1718938807342956789	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	fe835fe336e8b923
+1295	1314	1718938807342956789	/Users/vlish21/University/Algorithms-and-Data-Structure/lab11/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	fe835fe336e8b923
+1314	1331	1718938807360861138	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	97894656d5a5afe
+1314	1331	1718938807360861138	/Users/vlish21/University/Algorithms-and-Data-Structure/lab11/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	97894656d5a5afe
+1331	1354	1718938807384304567	CMakeFiles/googletest-populate-complete	6a269293515dc67f
+1331	1354	1718938807384304567	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	6a269293515dc67f
+1331	1354	1718938807384304567	/Users/vlish21/University/Algorithms-and-Data-Structure/lab11/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	6a269293515dc67f
+1331	1354	1718938807384304567	/Users/vlish21/University/Algorithms-and-Data-Structure/lab11/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	6a269293515dc67f
