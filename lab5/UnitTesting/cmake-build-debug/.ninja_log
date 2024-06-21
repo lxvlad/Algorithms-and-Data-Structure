@@ -1,0 +1,22 @@
+# ninja log v5
+3	1181	1718934396805474420	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	b39da89444d6f813
+1	1251	1718934396876791895	CMakeFiles/UnitTesting.dir/main.cpp.o	864f8d2a8b2b74d5
+2	2537	1718934398159204377	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	b5b5c22696dc7e55
+2537	2622	1718934398253487000	lib/libgtest.a	f3e2e0260090b16a
+2622	2646	1718934398277776000	lib/libgtest_main.a	173d721be4f94a5c
+9	1549	1718934420787283676	CMakeFiles/UnitTesting.dir/main.cpp.o	864f8d2a8b2b74d5
+1550	2068	1718934421311818492	UnitTesting	a89f5c29516a9313
+1550	2068	1718934421311818492	UnitTesting[1]_tests.cmake	a89f5c29516a9313
+1550	2068	1718934421311818492	/Users/vlish21/University/Algorithms-and-Data-Structure/lab5/UnitTesting/cmake-build-debug/UnitTesting[1]_tests.cmake	a89f5c29516a9313
+8	1555	1718934519257437328	CMakeFiles/UnitTesting.dir/main.cpp.o	864f8d2a8b2b74d5
+1555	2013	1718934519724805620	UnitTesting	a89f5c29516a9313
+1555	2013	1718934519724805620	UnitTesting[1]_tests.cmake	a89f5c29516a9313
+1555	2013	1718934519724805620	/Users/vlish21/University/Algorithms-and-Data-Structure/lab5/UnitTesting/cmake-build-debug/UnitTesting[1]_tests.cmake	a89f5c29516a9313
+9	1224	1718934678532461612	CMakeFiles/UnitTesting.dir/main.cpp.o	864f8d2a8b2b74d5
+1224	1708	1718934679023736542	UnitTesting	a89f5c29516a9313
+1224	1708	1718934679023736542	UnitTesting[1]_tests.cmake	a89f5c29516a9313
+1224	1708	1718934679023736542	/Users/vlish21/University/Algorithms-and-Data-Structure/lab5/UnitTesting/cmake-build-debug/UnitTesting[1]_tests.cmake	a89f5c29516a9313
+9	1087	1718934773761759682	CMakeFiles/UnitTesting.dir/main.cpp.o	864f8d2a8b2b74d5
+1087	1542	1718934774222661680	UnitTesting	a89f5c29516a9313
+1087	1542	1718934774222661680	UnitTesting[1]_tests.cmake	a89f5c29516a9313
+1087	1542	1718934774222661680	/Users/vlish21/University/Algorithms-and-Data-Structure/lab5/UnitTesting/cmake-build-debug/UnitTesting[1]_tests.cmake	a89f5c29516a9313

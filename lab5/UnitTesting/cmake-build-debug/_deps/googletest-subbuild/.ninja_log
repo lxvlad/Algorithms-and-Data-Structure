@@ -1,0 +1,23 @@
+# ninja log v5
+1	32	1718934277293155930	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	1fd5007917a7456c
+1	32	1718934277293155930	/Users/vlish21/University/Algorithms-and-Data-Structure/lab5/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	1fd5007917a7456c
+33	2038	1718934279298594553	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	450e5a01a39f2bfc
+33	2038	1718934279298594553	googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip	450e5a01a39f2bfc
+33	2038	1718934279298594553	/Users/vlish21/University/Algorithms-and-Data-Structure/lab5/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	450e5a01a39f2bfc
+33	2038	1718934279298594553	/Users/vlish21/University/Algorithms-and-Data-Structure/lab5/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip	450e5a01a39f2bfc
+2038	2061	1718934279321675645	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	97a5ee2b70d562dc
+2038	2061	1718934279321675645	/Users/vlish21/University/Algorithms-and-Data-Structure/lab5/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	97a5ee2b70d562dc
+2061	2079	1718934279339506389	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	3842efff86351b9
+2061	2079	1718934279339506389	/Users/vlish21/University/Algorithms-and-Data-Structure/lab5/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	3842efff86351b9
+2079	2095	1718934279356269972	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	aedf3d5dbbeebbd5
+2079	2095	1718934279356269972	/Users/vlish21/University/Algorithms-and-Data-Structure/lab5/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	aedf3d5dbbeebbd5
+2095	2116	1718934279376483900	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	b4593df6e2561542
+2095	2116	1718934279376483900	/Users/vlish21/University/Algorithms-and-Data-Structure/lab5/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	b4593df6e2561542
+2116	2133	1718934279393834416	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	963e5cf671de8b3f
+2116	2133	1718934279393834416	/Users/vlish21/University/Algorithms-and-Data-Structure/lab5/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	963e5cf671de8b3f
+2133	2151	1718934279411606037	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	39bd9c1d8d9b0dac
+2133	2151	1718934279411606037	/Users/vlish21/University/Algorithms-and-Data-Structure/lab5/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	39bd9c1d8d9b0dac
+2151	2175	1718934279435932740	CMakeFiles/googletest-populate-complete	34865f0f4d8d725a
+2151	2175	1718934279435932740	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	34865f0f4d8d725a
+2151	2175	1718934279435932740	/Users/vlish21/University/Algorithms-and-Data-Structure/lab5/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	34865f0f4d8d725a
+2151	2175	1718934279435932740	/Users/vlish21/University/Algorithms-and-Data-Structure/lab5/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	34865f0f4d8d725a
