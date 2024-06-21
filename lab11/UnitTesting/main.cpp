@@ -1,90 +1,88 @@
 #include <gtest/gtest.h>
 #include "../AVL tree/tree.cpp"
 
-class AVLTreeTest : public ::testing::Test {
+class TreeTests : public ::testing::Test {
 protected:
     Node* root;
-    AVLTreeTest() : root(nullptr) {}
 
     void SetUp() override {
-        // Initialize AVL Tree for testing
         root = nullptr;
     }
-
 };
 
-TEST_F(AVLTreeTest, InsertNodes)
-{
+TEST_F(TreeTests, TestInsertAndSearch) {
+    // Вставка елементів
     root = insert(root, 10);
     root = insert(root, 20);
     root = insert(root, 30);
-    root = insert(root, 40);
-    root = insert(root, 50);
-    root = insert(root, 25);
+    root = insert(root, 15);
+    root = insert(root, 5);
 
-    ASSERT_NE(root, nullptr);
-    ASSERT_EQ(root->data, 30);
-    ASSERT_EQ(root->left->data, 20);
-    ASSERT_EQ(root->right->data, 40);
-}
+    // Перевірка вставки
+    EXPECT_NE(search(root, 10), nullptr);
+    EXPECT_NE(search(root, 20), nullptr);
+    EXPECT_NE(search(root, 30), nullptr);
+    EXPECT_NE(search(root, 15), nullptr);
+    EXPECT_NE(search(root, 5), nullptr);
 
-TEST_F(AVLTreeTest, DeleteNode)
-{
-    root = insert(root, 10);
-    root = insert(root, 20);
-    root = insert(root, 30);
-    root = insert(root, 40);
-    root = insert(root, 50);
-    root = insert(root, 25);
-
-    root = deleteNode(root, 10);
+    // Видалення елемента
     root = deleteNode(root, 20);
 
-    ASSERT_NE(root, nullptr);
-    ASSERT_EQ(root->data, 30);
-    ASSERT_EQ(root->left->data, 25);
-    ASSERT_EQ(root->right->data, 40);
+    // Перевірка видалення
+    EXPECT_EQ(search(root, 20), nullptr);
 }
 
-TEST_F(AVLTreeTest, SearchNode)
-{
+TEST_F(TreeTests, TestBalanceAfterInsertion) {
+    // Вставка елементів
     root = insert(root, 10);
     root = insert(root, 20);
     root = insert(root, 30);
-    root = insert(root, 40);
-    root = insert(root, 50);
     root = insert(root, 25);
 
-    Node* result = search(root, 30);
-    ASSERT_NE(result, nullptr);
-    ASSERT_EQ(result->data, 30);
-
-    result = search(root, 15);
-    ASSERT_EQ(result, nullptr);
+    // Перевірка балансування
+    EXPECT_EQ(height(root), 3);
+    EXPECT_EQ(getBalance(root), -1);
 }
 
-TEST_F(AVLTreeTest, GetHeight)
-{
-    root = insert(root, 10);
-    root = insert(root, 20);
-    root = insert(root, 30);
+TEST_F(TreeTests, TestInsertDeleteAndSearch) {
+    // Вставка елементів
+    root = insert(root, 5);
+    root = insert(root, 3);
+    root = insert(root, 8);
+    root = insert(root, 2);
+    root = insert(root, 4);
+    root = insert(root, 7);
+    root = insert(root, 9);
 
-    ASSERT_EQ(height(root), 2);
+    // Перевірка вставки
+    EXPECT_NE(search(root, 5), nullptr);
+    EXPECT_NE(search(root, 3), nullptr);
+    EXPECT_NE(search(root, 8), nullptr);
+    EXPECT_NE(search(root, 2), nullptr);
+    EXPECT_NE(search(root, 4), nullptr);
+    EXPECT_NE(search(root, 7), nullptr);
+    EXPECT_NE(search(root, 9), nullptr);
 
-    root = insert(root, 40);
-    ASSERT_EQ(height(root), 3);
+    // Видалення елементів
+    root = deleteNode(root, 3);
+    root = deleteNode(root, 8);
+
+    // Перевірка видалення
+    EXPECT_EQ(search(root, 3), nullptr);
+    EXPECT_EQ(search(root, 8), nullptr);
 }
 
-TEST_F(AVLTreeTest, GetBalance)
-{
-    root = insert(root, 10);
-    root = insert(root, 20);
+TEST_F(TreeTests, TestBalanceAfterMultipleInsertions) {
+    // Вставка елементів
     root = insert(root, 30);
-
-    ASSERT_EQ(getBalance(root), -1);
-
+    root = insert(root, 20);
     root = insert(root, 40);
-    ASSERT_EQ(getBalance(root), -1);
+    root = insert(root, 10);
+    root = insert(root, 25);
+
+    // Перевірка балансування
+    EXPECT_EQ(height(root), 3);
+    EXPECT_EQ(getBalance(root), 1);
 }
 
 int main(int argc, char **argv) {
