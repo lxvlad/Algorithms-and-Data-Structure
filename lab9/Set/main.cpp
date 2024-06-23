@@ -15,7 +15,7 @@ int main()
     mySet.remove(3);
     mySet.print();
 
-    /// merge
+    /// merge, intersection and difference
 
     BitSet set_1, set_2;
 
@@ -33,9 +33,21 @@ int main()
     std::cout << "set_2: ";
     set_2.print();
 
+    // merge
     BitSet mergedSet = set_1.merge(set_2);
     std::cout << "Merged Set: ";
     mergedSet.print();
+
+    // intersection
+    BitSet intersectedSet = set_1.intersect(set_2);
+    std::cout << "Intersected Set: ";
+    intersectedSet.print();
+
+    // difference
+    BitSet differSet = set_1.difference(set_2);
+    std::cout << "Difference Set: ";
+    differSet.print();
+
 
     return 0;
 }

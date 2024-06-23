@@ -47,19 +47,35 @@ public:
         result.bits = bits | bs.bits;
         return result;
     }
-};
 
-class BitSet_Lit
-{
-private:
-    int set = 0;
-public:
-    void add(char symbol_to_add)
+    BitSet intersect(const BitSet& bs) const
     {
-        // check that symbol is in 'a'...'z' range
-        set = set | (1 << (symbol_to_add - 'a'));
+        BitSet result;
+        result.bits = bits & bs.bits;
+        return result;
+    }
+
+    BitSet difference(const BitSet& bs) const
+    {
+        BitSet result;
+        result.bits = bits & ~bs.bits;
+        return result;
     }
 };
+
+// class BitSet_Lit
+// {
+// private:
+//     int set = 0;
+// public:
+//     void add(char symbol_to_add)
+//     {
+//         // check that symbol is in 'a'...'z' range
+//         set = set | (1 << (symbol_to_add - 'a'));
+//     }
+// };
+
+
 //
 // Created by Vladyslav Lishchynskyi on 25.05.2024.
 //
