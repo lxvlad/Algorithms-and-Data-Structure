@@ -1,83 +1,59 @@
-#include <iostream>
 #include <vector>
+#include <queue>
 #include <limits>
 
+using namespace std;
+
+const int INF = numeric_limits<int>::max(); // Нескінченність для відстаней
+
 class Graph {
-private:
     int V;
-    std::vector<std::vector<int>> edges;
+    vector<vector<pair<int, int>>> adj; // Список суміжності (пара <вершина, вага ребра>)
 
 public:
-    Graph(int vertices) : V(vertices), edges(vertices, std::vector<int>(vertices, 0)) {}
-
-    ~Graph() {}
-
-    void addEdge(int u, int v, int weight) {
-        if (u == v) {
-            std::cout << "Ребро не може мати двох однакових вершин!" << std::endl;
-            return;
-        }
-
-        if (weight <= 0) {
-            std::cout << "Неправильна вага" << std::endl;
-            return;
-        }
-
-        edges[u][v] = weight;
-        edges[v][u] = weight;
+    Graph(int V)
+    {
+        this->V = V;
+        adj.resize(V);
     }
 
-    int getEdgeWeight(int u, int v) const {
-        return edges[u][v];
+    void addEdge(int u, int v, int weight)
+    {
+        adj[u].push_back(make_pair(v, weight));
+        adj[v].push_back(make_pair(u, weight)); // Якщо граф ненаправлений
     }
 
-    int minDistance(const std::vector<int>& dist, const std::vector<bool>& shortestPathSet) const {
-        int min = std::numeric_limits<int>::max(), min_index = -1;
+    vector<int> dijkstra(int src)
+    {
+        vector<int> dist(V, INF); // Відстані від src до всіх вершин, початково встановлюємо як нескінченність
+        dist[src] = 0; // Відстань до самої себе = 0
 
-        for (int v = 0; v < V; ++v) {
-            if (!shortestPathSet[v] && dist[v] <= min) {
-                min = dist[v];
-                min_index = v;
-            }
-        }
+        // Пріоритетна черга для зберігання пар <відстань, вершина> в порядку зростання відстаней
+        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
+        pq.push(make_pair(0, src)); // Додаємо початкову вершину з вагою 0
 
-        return min_index;
-    }
+        while (!pq.empty())
+        {
+            int u = pq.top().second; // Поточна вершина з найменшою відстанню
+            pq.pop();
 
-    int dijkstra(int src) const {
-        std::vector<int> dist(V, std::numeric_limits<int>::max());
-        std::vector<bool> shortestPathSet(V, false);
+            // Проходимо по всіх сусідніх вершинах поточної вершини u
+            for (auto& neighbor : adj[u])
+            {
+                int v = neighbor.first; // Сусідня вершина
+                int weight = neighbor.second; // Вага ребра u-v
 
-        dist[src] = 0;
-
-        for (int count = 0; count < V - 1; ++count) {
-            int u = minDistance(dist, shortestPathSet);
-            shortestPathSet[u] = true;
-
-            for (int v = 0; v < V; ++v) {
-                if (!shortestPathSet[v] && edges[u][v] && dist[u] != std::numeric_limits<int>::max() &&
-                    dist[u] + edges[u][v] < dist[v]) {
-                    dist[v] = dist[u] + edges[u][v];
+                // Оновлення відстані, якщо знайдено коротший шлях
+                if (dist[v] > dist[u] + weight)
+                {
+                    dist[v] = dist[u] + weight;
+                    pq.push(make_pair(dist[v], v));
                 }
             }
         }
 
-        std::cout << "\nВершина   Відстань\n";
-        for (int i = 0; i < V; ++i) {
-            std::cout << i << "\t\t" << dist[i] << '\n';
-        }
-
-        int max = 0;
-        for (int i = 1; i < V; ++i) {
-            if (dist[max] < dist[i])
-                max = i;
-        }
-
-        return dist[max];
+        return dist; // Повертаємо масив з найкоротшими відстанями до всіх вершин від src
     }
 };
 
 
-//
-// Created by Vladyslav Lishchynskyi on 20.06.2024.
-//

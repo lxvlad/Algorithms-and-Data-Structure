@@ -1,0 +1,7 @@
+add_test([=[GraphTest.DijkstraShortestPath]=]  /Users/vlish21/University/Algorithms-and-Data-Structure/lab10/UnitTesting/cmake-build-debug/UnitTesting [==[--gtest_filter=GraphTest.DijkstraShortestPath]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[GraphTest.DijkstraShortestPath]=]  PROPERTIES WORKING_DIRECTORY /Users/vlish21/University/Algorithms-and-Data-Structure/lab10/UnitTesting/cmake-build-debug SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[GraphTest.DijkstraSingleVertex]=]  /Users/vlish21/University/Algorithms-and-Data-Structure/lab10/UnitTesting/cmake-build-debug/UnitTesting [==[--gtest_filter=GraphTest.DijkstraSingleVertex]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[GraphTest.DijkstraSingleVertex]=]  PROPERTIES WORKING_DIRECTORY /Users/vlish21/University/Algorithms-and-Data-Structure/lab10/UnitTesting/cmake-build-debug SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[GraphTest.DijkstraNegativeWeights]=]  /Users/vlish21/University/Algorithms-and-Data-Structure/lab10/UnitTesting/cmake-build-debug/UnitTesting [==[--gtest_filter=GraphTest.DijkstraNegativeWeights]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[GraphTest.DijkstraNegativeWeights]=]  PROPERTIES WORKING_DIRECTORY /Users/vlish21/University/Algorithms-and-Data-Structure/lab10/UnitTesting/cmake-build-debug SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  UnitTesting_TESTS GraphTest.DijkstraShortestPath GraphTest.DijkstraSingleVertex GraphTest.DijkstraNegativeWeights)
