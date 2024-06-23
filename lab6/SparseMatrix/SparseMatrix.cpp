@@ -36,88 +36,108 @@ public:
     {
         if (row >= 0 && row < rows && col >= 0 && col < columns)
         {
-            MatrixElement* newElement = new MatrixElement(row, col, value); // створюється об'єкт типу MatrixElement, представляє новий елемент матриці.
+            // Створення нового елементу MatrixElement з переданими значеннями row, col і value
+            MatrixElement* newElement = new MatrixElement(row, col, value);
 
-            if (!data[row] || data[row] -> column > col) // чи поточний рядок порожній або чи перший елемент у рядку має більший номер стовпця, ніж новий елемент
+            // Перевірка, чи рядок data[row] є порожнім або чи стовпець нового елементу менший за стовпець першого елементу в рядку
+            if (!data[row] || data[row]->column > col)
             {
-                newElement->next = data[row];  // новий елемент додається на початок списку елементів цього рядка.
+                // новий елемент стає першим в рядку
+                newElement->next = data[row];
                 data[row] = newElement;
 
+                // Збільшення лічильника кількості елементів в матриці
                 size++;
             }
-            else // чи новий елемент не має потрапити між двома існуючими елементами у рядку
+            else
             {
+                // Якщо умова вище не справджується, то потрібно вставити новий елемент відповідно до порядку стовпців
                 MatrixElement* curr = data[row];
 
+                // Прохід по зв'язаному списку у поточному рядку, щоб знайти місце для вставки нового елементу
                 while (curr->next && curr->next->column < col)
                     curr = curr->next;
 
+                // Вставка нового елементу після поточного, який має стовпець менший за col
                 newElement->next = curr->next;
                 curr->next = newElement;
 
+                // Збільшення лічильника кількості елементів в матриці
                 size++;
             }
         }
         else
             cout << "Invalid row or column index!\n";
     }
+
 
     void UpdateElement(int row, int col, T value)
     {
         if (row >= 0 && row < rows && col >= 0 && col < columns)
         {
+            // Починаємо з першого елемента в рядку data[row]
             MatrixElement* curr = data[row];
 
+            // Прохід по зв'язаному списку у поточному рядку, щоб знайти елемент з вказаним стовпцем col
             while (curr)
             {
-                if (curr->column == col) // пошук елемента який має той самий номер стовпця
+                // Якщо знайдено елемент зі стовпцем col, оновлюємо його значення на нове value
+                if (curr->column == col)
                 {
-                    curr->value = value; // якщо такий елемент знайдено, змінюємо його
-                    return;
+                    curr->value = value;
+                    return; // Після оновлення виходимо з функції
                 }
-                curr = curr->next;
+                curr = curr->next; // Переходимо до наступного елементу у зв'язаному списку
             }
         }
         else
             cout << "Invalid row or column index!\n";
     }
+
 
     void RemoveElement(int row, int col)
     {
         if (row >= 0 && row < rows && col >= 0 && col < columns)
         {
-            if (!data[row]) // чи рядок, з якого ми хочемо видалити елемент, не порожній
+            // Перевірка, чи існує хоча б один елемент в рядку data[row]
+            if (!data[row])
             {
                 cout << "Element not found!" << endl;
                 return;
             }
 
-            MatrixElement* curr = data[row]; // вказівник curr вказує на перший елемент списку зв'язаних елементів у рядку
-            MatrixElement* prev = nullptr; // на попередній елемент перед curr
+            // Ініціалізація двох вказівників для проходу по зв'язаному списку в рядку data[row]
+            MatrixElement* curr = data[row];
+            MatrixElement* prev = nullptr;
 
+            // Прохід по зв'язаному списку, щоб знайти елемент з вказаним стовпцем col
             while (curr)
             {
-                if (curr->column == col) // пошук елемента в рядку за його номером стовпця
+                if (curr->column == col)
                 {
-                    if (prev) // якщо попередній елемент існує
-                        prev->next = curr->next; // перенаправляє вказівник next на наступний елемент після curr
+                    // Якщо знайдено елемент зі стовпцем col, видаляємо його зі зв'язаного списку
+                    if (prev)
+                        prev->next = curr->next; // Пов'язуємо попередній елемент з наступним
                     else
-                        data[row] = curr->next; // означає, що curr - перший елемент у списку, тому data[row]
+                        data[row] = curr->next; // Якщо видаляємо перший елемент, змінюємо початок рядка
 
-                    delete curr;
+                    delete curr; // Видаляємо поточний елемент
                     cout << "Element removed successfully!" << endl;
-                    size--;
+                    size--; // Зменшуємо лічильник кількості елементів в матриці
                     return;
                 }
 
-                prev = curr;
-                curr = curr->next;
+                prev = curr; // Переміщуємо попередній елемент на поточний
+                curr = curr->next; // Переходимо до наступного елементу у зв'язаному списку
             }
+
+            // Якщо не знайдено елемента зі стовпцем col, виводимо повідомлення про помилку
             cout << "Element not found!" << endl;
         }
         else
             cout << "Invalid row or column index!\n";
     }
+
 
     T GetElement(int row, int col)
     {
@@ -154,17 +174,26 @@ public:
     {
         SparseMatrix transposed(columns, rows);
 
+        // Прохід по кожному рядку поточної матриці
         for (int i = 0; i < rows; i++)
         {
+            // Отримання першого елементу в поточному рядку data[i]
             MatrixElement* curr = data[i];
+
+            // Прохід по зв'язаному списку елементів у поточному рядку
             while (curr)
             {
+                // Додавання елементу до транспонованої матриці з обміненими координатами (curr->column, curr->row)
                 transposed.AddElement(curr->column, curr->row, curr->value);
+
+                // Перехід до наступного елементу у поточному рядку
                 curr = curr->next;
             }
         }
+
         return transposed;
     }
+
 
     void print()
     {
