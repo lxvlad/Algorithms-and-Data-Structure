@@ -68,6 +68,31 @@ public:
             }
         }
     }
+
+    // для тестів
+    string getValue(int key) const
+    {
+        int hashValue = hashFunction(key);
+        const auto& cell = table[hashValue];
+        for (const auto& pair : cell)
+        {
+            if (pair.first == key)
+                return pair.second;
+        }
+        return "";
+    }
+    // для тестів
+    bool hasKey(int key) const
+    {
+        int hashValue = hashFunction(key);
+        const auto& cell = table[hashValue];
+        for (const auto& pair : cell)
+        {
+            if (pair.first == key)
+                return true;
+        }
+        return false;
+    }
 };
 
 

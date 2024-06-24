@@ -1,0 +1,23 @@
+# ninja log v5
+0	19	1719199171212248471	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	ac2a98916dd42c1b
+0	19	1719199171212248471	/Users/vlish21/University/Algorithms-and-Data-Structure/lab4/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	ac2a98916dd42c1b
+19	1170	1719199172362770807	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	9e1977d33cfcd8d0
+19	1170	1719199172362770807	googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip	9e1977d33cfcd8d0
+19	1170	1719199172362770807	/Users/vlish21/University/Algorithms-and-Data-Structure/lab4/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	9e1977d33cfcd8d0
+19	1170	1719199172362770807	/Users/vlish21/University/Algorithms-and-Data-Structure/lab4/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip	9e1977d33cfcd8d0
+1170	1181	1719199172374104680	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	8fc5b59f3126b684
+1170	1181	1719199172374104680	/Users/vlish21/University/Algorithms-and-Data-Structure/lab4/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	8fc5b59f3126b684
+1181	1196	1719199172389150598	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	f8a112c8e8bc4aa0
+1181	1196	1719199172389150598	/Users/vlish21/University/Algorithms-and-Data-Structure/lab4/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	f8a112c8e8bc4aa0
+1196	1207	1719199172400006076	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	1d0d0ba2ce69ed7d
+1196	1207	1719199172400006076	/Users/vlish21/University/Algorithms-and-Data-Structure/lab4/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	1d0d0ba2ce69ed7d
+1207	1218	1719199172411222579	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	1d769d0e54f970a
+1207	1218	1719199172411222579	/Users/vlish21/University/Algorithms-and-Data-Structure/lab4/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	1d769d0e54f970a
+1218	1229	1719199172421754613	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	a408a9a3ef00faba
+1218	1229	1719199172421754613	/Users/vlish21/University/Algorithms-and-Data-Structure/lab4/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	a408a9a3ef00faba
+1229	1239	1719199172432273273	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	6daa3354400ce2b8
+1229	1239	1719199172432273273	/Users/vlish21/University/Algorithms-and-Data-Structure/lab4/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	6daa3354400ce2b8
+1239	1254	1719199172446814004	CMakeFiles/googletest-populate-complete	8bebac7831ee40ac
+1239	1254	1719199172446814004	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	8bebac7831ee40ac
+1239	1254	1719199172446814004	/Users/vlish21/University/Algorithms-and-Data-Structure/lab4/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	8bebac7831ee40ac
+1239	1254	1719199172446814004	/Users/vlish21/University/Algorithms-and-Data-Structure/lab4/UnitTesting/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	8bebac7831ee40ac
