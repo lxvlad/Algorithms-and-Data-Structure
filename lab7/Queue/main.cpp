@@ -1,4 +1,5 @@
 #include <iostream>
+#include <queue>
 #include "Queue.cpp"
 
 using namespace std;
@@ -37,14 +38,14 @@ int main()
     myQueue.showQueue();
 
     myQueue.clear();
-    cout << myQueue.isEmpty() << endl;
+    cout << std::boolalpha << myQueue.isEmpty() << endl;
 
 
     // Queue with priority
     cout << "----Queue with priority----" << endl;
 
     MyPriorityQueue myPriorityQueue;
-    cout << myPriorityQueue.isEmpty() << endl;
+    cout << std::boolalpha << myPriorityQueue.isEmpty() << endl;
 
     myPriorityQueue.push(12, 7);
     myPriorityQueue.push(67, 8);

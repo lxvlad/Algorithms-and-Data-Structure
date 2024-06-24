@@ -12,8 +12,8 @@ private:
         Node* next;
     };
 
-    Node* head;
-    Node* tail;
+    Node* head; // місце вилучення
+    Node* tail; // місце включення
     size_t size;
 
 public:
@@ -21,11 +21,13 @@ public:
 
     void push(const T& value)
     {
+        // якщо черга порожня то новий елемент стає стає і головою і хвостом
         if (size == 0)
         {
             head = new Node{value, tail, nullptr};
             tail = head;
         }
+        // інакше новий елемент додається в кінець черги
         else
         {
             tail->next = new Node{value, tail, nullptr};
@@ -43,6 +45,7 @@ public:
             return;
         }
 
+        // якщо в черзі тільки один елемент, то видаляєм його, і, відповідно зануляєм head та tail
         if (size == 1)
         {
             delete head;
@@ -129,11 +132,13 @@ public:
     {
         Node* newNode = new Node{value, priority, nullptr, nullptr};
 
+        // якшо черга порожня, новий елемент (вузол) стає і головою, і хвостом.
         if (!head)
         {
             head = newNode;
             tail = newNode;
         }
+        // інакше знаходимо правильне місце для нового елемента на основі його пріоритету
         else
         {
             Node* current = head;
@@ -141,18 +146,21 @@ public:
             while (current && current->priority >= priority)
                 current = current->next;
 
+            // якщо досягнуто кінець черги (current дорівнює nullptr), новий вузол додається в кінець черги
             if (!current)
             {
                 newNode->previous = tail;
                 tail->next = newNode;
                 tail = newNode;
             }
+            // якщо новий вузол має пріоритет вищий, ніж у голови черги, він вставляється на початок.
             else if (current == head)
             {
                 newNode->next = head;
                 head->previous = newNode;
                 head = newNode;
             }
+            // вставка вузла в середину черги
             else
             {
                 newNode->previous = current -> previous;
@@ -173,7 +181,6 @@ public:
             return;
         }
 
-        int value = head -> data;
         Node* temp = head;
         head = head->next;
 
