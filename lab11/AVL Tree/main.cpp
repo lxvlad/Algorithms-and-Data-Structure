@@ -1,44 +1,29 @@
-#include <iostream>
-#include "Tree.h"
-#include <vector>;
-#include <string>
+#include "Tree.cpp"
 
 
 int main()
 {
-    // Створення порожнього кореня дерева
-    Node* root = nullptr;
+    AVLTree tree;
 
-    std::cout << "Enter values that will be stored in AVL-tree (type \"stop\" to stop):\n";
-    while (true) {
-        std::string val;
-        std::cin >> val;
-        if (val == "stop") // Перевірка на виход з циклу при введенні символу 'S'
-            break;
-        root = insert(root, std::stoi(val)); // Вставка введеного значення в дерево
-    }
+    tree.insert(10);
+    tree.insert(20);
+    tree.insert(30);
+    tree.insert(40);
+    tree.insert(50);
+    tree.insert(25);
 
-    std::cout << "AVL Tree (Graph representation) before deletion:\n";
-    printTreeGraph(root, 0, 10); // Виведення графічного представлення дерева
+    std::cout << "Preorder notation of the constructed AVL tree is \n";
+    tree.preOrder();
+    std::cout << "\n";
 
-    int condition;
-    std::cout << "Enter the element you want to delete: ";
-    std::cin >> condition;
-    try {
-        root = deleteNode(root, condition);
+    tree.printTreeGraph();
 
-        std::cout << "AVL Tree (Graph representation) after deletion:\n";
-        printTreeGraph(root, 0, 10);
-    }
-    catch (std::exception& e)
-    {
-        std::cerr << "Occured an error: " << e.what();
-    }
-    Node* root1 = search(root, 12);
-    if (root1 == nullptr)
-        std::cout << "No such value in tree ("<< 12 <<')' <<'\n';
-    else {
-        std::cout << root1->data;
-    }
+    std::cout << "\nDeleting 40\n";
+    tree.deleteNode(40);
+    tree.printTreeGraph();
+
+    std::cout << "\nSearching for 30: " << (tree.search(30) ? "Found" : "Not Found") << "\n";
+    std::cout << "Searching for 40: " << (tree.search(40) ? "Found" : "Not Found") << "\n";
+
     return 0;
 }

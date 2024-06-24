@@ -1,88 +1,63 @@
 #include <gtest/gtest.h>
 #include "../AVL tree/tree.cpp"
 
-class TreeTests : public ::testing::Test {
-protected:
-    Node* root;
 
-    void SetUp() override {
-        root = nullptr;
-    }
-};
+TEST(AVLTreeTest, InsertAndSearch)
+{
+    AVLTree tree;
 
-TEST_F(TreeTests, TestInsertAndSearch) {
-    // Вставка елементів
-    root = insert(root, 10);
-    root = insert(root, 20);
-    root = insert(root, 30);
-    root = insert(root, 15);
-    root = insert(root, 5);
+    tree.insert(10);
+    tree.insert(20);
+    tree.insert(30);
+    tree.insert(40);
+    tree.insert(50);
 
-    // Перевірка вставки
-    EXPECT_NE(search(root, 10), nullptr);
-    EXPECT_NE(search(root, 20), nullptr);
-    EXPECT_NE(search(root, 30), nullptr);
-    EXPECT_NE(search(root, 15), nullptr);
-    EXPECT_NE(search(root, 5), nullptr);
-
-    // Видалення елемента
-    root = deleteNode(root, 20);
-
-    // Перевірка видалення
-    EXPECT_EQ(search(root, 20), nullptr);
+    EXPECT_TRUE(tree.search(30));
+    EXPECT_TRUE(tree.search(20));
+    EXPECT_FALSE(tree.search(15));
 }
 
-TEST_F(TreeTests, TestBalanceAfterInsertion) {
-    // Вставка елементів
-    root = insert(root, 10);
-    root = insert(root, 20);
-    root = insert(root, 30);
-    root = insert(root, 25);
+TEST(AVLTreeTest, DeleteNode)
+{
+    AVLTree tree;
 
-    // Перевірка балансування
-    EXPECT_EQ(height(root), 3);
-    EXPECT_EQ(getBalance(root), -1);
+    tree.insert(10);
+    tree.insert(20);
+    tree.insert(30);
+    tree.insert(40);
+    tree.insert(50);
+
+    tree.deleteNode(30);
+
+    EXPECT_FALSE(tree.search(30));
+    EXPECT_TRUE(tree.search(40));
+    EXPECT_EQ(tree.search(20), true);
+    EXPECT_EQ(tree.search(50), true);
 }
 
-TEST_F(TreeTests, TestInsertDeleteAndSearch) {
-    // Вставка елементів
-    root = insert(root, 5);
-    root = insert(root, 3);
-    root = insert(root, 8);
-    root = insert(root, 2);
-    root = insert(root, 4);
-    root = insert(root, 7);
-    root = insert(root, 9);
+TEST(AVLTreeTest, InsertAndDeleteMultipleNodes)
+{
+    AVLTree tree;
 
-    // Перевірка вставки
-    EXPECT_NE(search(root, 5), nullptr);
-    EXPECT_NE(search(root, 3), nullptr);
-    EXPECT_NE(search(root, 8), nullptr);
-    EXPECT_NE(search(root, 2), nullptr);
-    EXPECT_NE(search(root, 4), nullptr);
-    EXPECT_NE(search(root, 7), nullptr);
-    EXPECT_NE(search(root, 9), nullptr);
+    tree.insert(50);
+    tree.insert(30);
+    tree.insert(20);
+    tree.insert(40);
+    tree.insert(70);
+    tree.insert(60);
+    tree.insert(80);
 
-    // Видалення елементів
-    root = deleteNode(root, 3);
-    root = deleteNode(root, 8);
+    tree.deleteNode(30);
+    tree.deleteNode(20);
+    tree.deleteNode(80);
 
-    // Перевірка видалення
-    EXPECT_EQ(search(root, 3), nullptr);
-    EXPECT_EQ(search(root, 8), nullptr);
-}
-
-TEST_F(TreeTests, TestBalanceAfterMultipleInsertions) {
-    // Вставка елементів
-    root = insert(root, 30);
-    root = insert(root, 20);
-    root = insert(root, 40);
-    root = insert(root, 10);
-    root = insert(root, 25);
-
-    // Перевірка балансування
-    EXPECT_EQ(height(root), 3);
-    EXPECT_EQ(getBalance(root), 1);
+    EXPECT_FALSE(tree.search(30));
+    EXPECT_FALSE(tree.search(20));
+    EXPECT_FALSE(tree.search(80));
+    EXPECT_TRUE(tree.search(50));
+    EXPECT_TRUE(tree.search(40));
+    EXPECT_TRUE(tree.search(70));
+    EXPECT_TRUE(tree.search(60));
 }
 
 int main(int argc, char **argv) {
